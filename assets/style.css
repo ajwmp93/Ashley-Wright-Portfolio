@@ -1,17 +1,15 @@
 header {
     border: 1px solid black;
     padding: 2rem;
-    background-color: #5B1117;
 }
 
 h1 {
     width: 400px;
     height: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid #E1D7A8;
-    padding: 1.5rem;
-    background-color: #E1D7A8;
-    color: #C64A31 ;
+    border: 2px solid black;
+    padding: 1.5rem;;
+    color: black;
     text-align: center;
 }
 
@@ -19,9 +17,8 @@ h2 {
     position: absolute;
     top: 130px;
     right: 15px;
-    border: 2px solid #5B1117;
+    border: 2px solid black;
     padding: 1.5rem;
-    background-color:#5B1117;
 }
 
 .navigation ul {
@@ -58,11 +55,20 @@ h2 {
     border-radius: 0 4px 4px 0;
 }
 
-main {
-    background-color:
-}
-
 img {
     height: 100px;
     width: 100%;
+    border: 1px solid black;
+}
+
+.sidebar1 {
+    border: 1px solid black;
+    max-width: 200px;
+    min-width: 200px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    line-height: 200px;
 }
