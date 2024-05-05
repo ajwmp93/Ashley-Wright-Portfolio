@@ -61,6 +61,8 @@ h1 {
 
 ul {
     list-style: none;
+    line-height: 100px;
+    text-align: center;
 }
 
 .about {
@@ -73,4 +75,9 @@ ul {
 
 .contact {
     border: 1px solid black;
+}
+
+img {
+    width: 200px;
+    height:200px;
 }
