@@ -3,45 +3,46 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>Ashley Wright's Portfolio</title>
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
-<body style="display:flex-container">
+<body>
     <header>
         <h1 class="page-title">
             Ashley Wright's Portfolio
         </h1>
-        <nav class="navigation">
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
-                    <li><a href="#resume">Resume</a></li>
-            </ul>
+        <section id="section1">
+            About Me
+        </section>
+        <section id="section2">
+            Work
+        </section>
+        <section id="section3">
+            Contact Me
+        </section>
+        <nav class="top-right-nav">
+            <a href="#section1">About Me</a></li>
+            <a href="#section2">Work</a></li>
+            <a href="#section3">Contact Me</a></li>
         </nav>
     </header>
     <main>
-        <h2 class="information">
-            <ul>
-                <div class="about">
-                <li>About Me</li>
-                    <p>My name is Jeff</p>
-                </div>
-                <div class="links">
-                <li>Work</li>
-                    <ul>
-                    <li><a href="https://ajwmp93.github.io/prework-study-guide/">Pre-Work Study Guide</a></li>
-                    <li><a href="https://ajwmp93.github.io/awright-challenge-01/">Challenge 1</a></li>
-                    <li><img src="./assets/coming-soon.webp"></li>
-                        <p>more projects coming soon!</p>
-                </div>
-                <div class="contact">
-                    <a href="mailto: ajwright1993@gmail.com">Contact Me</a>
-                </div>
-            </ul>
-        </h2>
+        <div class="container">
+            <div class="sidebar">
+                <div class="section">About Me</div>
+                <div class="section">Work</div>
+                <div class="section">Contact Me</div>
+            </div>
+            <div class="content">
+                <h2>Main content title</h2>
+                <p>My name is jeff></p>
+                <a href="mailto:ajwright1993@gmail.com">Send an Email</a>
+                <a href="https://github.com/">Check out my GitHub</a>
+                <a href="https://www.linkedin.com/feed/">LinkdIn profile</a>
+            </div>
     </main>
 </body>
 </html>
