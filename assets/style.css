@@ -1,6 +1,8 @@
 .top-right-nav {
+    display: flex;
+    flex-wrap: wrap;
     position: absolute;
-    top: 50px;
+    top: 30%;
     right: 0px;
     transition: background-color 0.3s;
     background-color: #C0AFCC;
@@ -8,6 +10,8 @@
 }
 
 .top-right-nav a {
+    display: flex;
+    flex-wrap: wrap;
     margin-right: 30px;
 }
 
@@ -16,6 +20,8 @@
 }
 
 .banner {
+    display: flex;
+    flex-wrap:wrap;
     background-image: url(/Users/ashleywright/bootcamp/awright-challenge-02/assets/clouds2.webp);
     background-size: cover;
     background-position: center;
@@ -23,14 +29,15 @@
 }
 
 .overlay-box1 {
-    position: aboslute;
     display: flex;
+    flex-wrap: wrap;
     top: 40%;
     left: 40%;
     background-color: #C0AFCC;
     color: black;
     padding: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: underline;
 }
 
 body {
@@ -41,11 +48,15 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     line-height: 50px;
     flex-direction: column;
 }
 
 #about-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     font-size: large;
     margin-left: 50px;
     margin-right: 50px;
@@ -53,25 +64,110 @@ body {
 }
 
 #about-me {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 5%;
-    padding-left: 20%;
-    margin-right: 50%;
+    padding-left: 15%;
+    margin-right: 40%;
     text-decoration: underline;
 }
 
 #introduction {
+    display: flex;
+    flex-wrap: wrap;
     border-left: 5px solid black;
-    margin-left: 40%;
+    margin-left: 30%;
     margin-top: -7%;
     text-align: center;
 }
 
 #work-container {
     border: 1px solid black;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#work {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    margin-right: 40%;
+    text-decoration: underline;
+}
+
+#work-image {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 5px solid black;
+    margin-left: 30%;
+    margin-top: -4%;
+}
+
+#done-image {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 400px;
+    height: auto;
+    padding-left: 5%;
+}
+
+#image-link {
+    display: inline-block;
+    flex-wrap: wrap;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 6%;
+    margin-right:10%;
+    margin-left: 12%;
+    background-color: lightblue;
+}
+
+#image-link:hover {
+    background-color: white;
+}
+
+#coming-soon {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+#new {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 400px;
+    height: auto;
+    padding-left: 60%;
+}
+
+#image-text {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
 }
 
 #contact-container {
+    display: flex;
+    flex-wrap: wrap;
     border: 1px solid black;
     text-align: center;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    text-align: center;
+    color: blue;
+    align-items: center;
 }
