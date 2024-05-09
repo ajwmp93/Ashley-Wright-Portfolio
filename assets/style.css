@@ -1,3 +1,6 @@
+html {
+    background-color: #d8c8d6;
+}
 .top-right-nav {
     display: flex;
     flex-wrap: wrap;
@@ -5,7 +8,7 @@
     top: 30%;
     right: 0px;
     transition: background-color 0.3s;
-    background-color: #C0AFCC;
+    background-color: #d8c8d6;
     color: black;
 }
 
@@ -20,8 +23,6 @@
 }
 
 .banner {
-    display: flex;
-    flex-wrap:wrap;
     background-image: url(/Users/ashleywright/bootcamp/awright-challenge-02/assets/clouds2.webp);
     background-size: cover;
     background-position: center;
@@ -29,14 +30,12 @@
 }
 
 .overlay-box1 {
-    display: flex;
-    flex-wrap: wrap;
     top: 40%;
     left: 40%;
-    background-color: #C0AFCC;
-    color: black;
+    background-color: #d8c8d6;
+    color: #5b284d;
     padding: 15px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-decoration: underline;
 }
 
@@ -69,14 +68,17 @@ body {
     position: relative;
     margin-top: 5%;
     padding-left: 15%;
+    padding: 1;
     margin-right: 40%;
     text-decoration: underline;
+    color: #5b284d;
 }
 
 #introduction {
-    border-left: 5px solid black;
+    border-left: 5px solid #5b284d;
     margin-left: 30%;
     margin-top: -7%;
+    margin-bottom: 5%;
     text-align: center;
 }
 
@@ -96,10 +98,11 @@ body {
     padding-left: 15%;
     margin-right: 40%;
     text-decoration: underline;
+    color: #5b284d;
 }
 
 #work-image {
-    border-left: 5px solid black;
+    border-left: 5px solid #5b284d;
     margin-left: 30%;
     margin-top: -7%;
     text-align: center;
@@ -112,13 +115,14 @@ body {
 }
 
 #image-link:hover {
-    background-color: white;
+    background-color: #C0AFCC;
 }
 
 #coming-soon {
-    border-left: 5px solid black;
+    border-left: 5px solid #5b284d;
     margin-left: 30%;
     margin-top: 0%;
+    margin-bottom: 15%;
     text-align: center;
 }
 
@@ -147,12 +151,17 @@ body {
     margin-right: 40%;
     margin-top: -10%;
     text-decoration: underline;
+    color: #5b284d;
 }
 
 #contact-links {
     font-size: large;
-    border-left: 5px solid black;
+    border-left: 5px solid #5b284d;
     margin-left: 30%;
     margin-top: -4%;
     text-align: center;
+}
+
+#contact-links:hover {
+    background-color: #C0AFCC
 }
