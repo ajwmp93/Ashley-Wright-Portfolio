@@ -1,10 +1,7 @@
 .top-right-nav {
     position: absolute;
-    top: 50px;
-    right: 40px;
-    border: 2px solid black;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    top: 0px;
+    right: 0px;
     transition: background-color 0.3s;
     background-color: #C0AFCC;
     color: black;
@@ -19,22 +16,20 @@
 }
 
 .banner {
-    background-image: url(/Users/ashleywright/bootcamp/awright-challenge-02/assets/autumn.jpeg);
+    background-image: url(/Users/ashleywright/bootcamp/awright-challenge-02/assets/clouds2.webp);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 350px;
 }
 
 .overlay-box {
     position: aboslute;
     display: flex;
-    top: 50%;
-    left: 50%;
-    background-color: white;
+    top: 40%;
+    left: 40%;
+    background-color: #C0AFCC;
     color: black;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 5px;
+    padding: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
