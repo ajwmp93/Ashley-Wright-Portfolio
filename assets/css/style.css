@@ -20,7 +20,7 @@
 }
 
 .banner {
-    background-image: url(/Users/ashleywright/bootcamp/awright-challenge-02/assets/images/clouds2.webp);
+    background-image: url("/Users/ashleywright/bootcamp/awright-challenge-02/assets/images/clouds2.webp");
     background-size: cover;
     background-position: center;
     height: 350px;
