@@ -19,22 +19,17 @@
     background-color: white;
 }
 
-.banner {
-    background-image: url("./assets/images/clouds2.webp");
+.banner{ 
+    background-image: url(../images/IMG_1510.png);
     background-size: cover;
     background-position: center;
-    height: 350px;
+    height: 300%;
 }
 
-#banner1 {
-    background-size: cover;
-    background-position: center;
-    height: 350px;
-}
 .overlay-box1 {
     top: 1px;
     left: 40%;
-    color: #5b284d;
+    color: white;
     padding-right: 15px;
     text-decoration: underline;
 }
