@@ -20,11 +20,17 @@
 }
 
 .banner {
+    background-image: url(/Users/ashleywright/bootcamp/awright-challenge-02/assets/images/clouds2.webp);
     background-size: cover;
     background-position: center;
     height: 350px;
 }
 
+#banner1 {
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
 .overlay-box1 {
     top: 1px;
     left: 40%;
