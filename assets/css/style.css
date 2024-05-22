@@ -109,14 +109,27 @@ body {
     text-align: center;
 }
 
+.pre-work {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.pre-work:hover  {
+    background-color: #C0AFCC;
+}
+
+.blog {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.blog:hover {
+    background-color: #C0AFCC;
+}
 #image-link {
     margin-left: 1%;
     margin-top: 3%;
     text-align: center;
-}
-
-#image-link:hover {
-    background-color: #C0AFCC;
 }
 
 #coming-soon {
@@ -159,10 +172,36 @@ body {
     font-size: large;
     border-left: 5px solid #5b284d;
     margin-left: 30%;
-    margin-top: -4%;
+    margin-top: -2%;
     text-align: center;
 }
 
-#contact-links:hover {
-    background-color: #C0AFCC
+.email {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.github {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.linkdin {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.email:hover {
+    background-color: #C0AFCC;
+}
+
+.github:hover {
+    background-color: #C0AFCC;
+}
+
+.linkdin:hover {
+    background-color: #C0AFCC;
 }
