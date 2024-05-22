@@ -8,8 +8,13 @@ My motivation for creating this project was to have a dedicated space where I co
 
 You can view the page normally and click the links provided in the body of the webpage to take you to my previous projects. I also included links to my email, my GitHub, and my LinkdIn profile.
 
+```md
+![portfolio-page](./assets/images/Untitled.png)
+```
+
+Here is a link to the deployed portfolio: https://ajwmp93.github.io/Ashley-Wright-Portfolio/
+
 ## Credits
 
 I asked Xpert Learning AI for help on a couple pieces of code that was confusing me. I also went back and reviewed work we completed in class to remind myself of how to code certain aspects.
 https://bootcampspot.instructure.com/courses/5617/external_tools/313
-
